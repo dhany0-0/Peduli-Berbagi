@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PB</title>
+    <!-- Link ke Bootstrap -->
+    <!-- Link ke Bootstrap terbaru -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link ke Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <!-- Menu Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-logo">Peduli<span>Berbagi</span></a>
+
+        <!-- Tombol hamburger untuk tampilan responsif -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Menu Navbar -->
+        <div class="navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#journey">Journey</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Lainnya </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Dokumentasi</a></li>
+                <li><a class="dropdown-item" href="donasi.html">Donasi</a></li>
+                <li><a class="dropdown-item" href="#">Testimoni</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- navbar -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Peduli <span>Berbagi</span></h1>
+        <p>Satu kebaikan yang kita lakukan mungkin dapat mengubah hidup seseorang.</p>
+        <div class="button">
+          <a href="donasi.html">Gabung Sekarang</a>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Hero Section -->
+    <section class="tentang" id="tentang">
+      <h2>Tentang Kami</h2>
+
+      <div class="bola-cahaya bola-1"></div>
+      <div class="bola-cahaya bola-2"></div>
+      <div class="bola-cahaya bola-3"></div>
+
+      <div class="row">
+        <div class="tentang-img">
+          <img src="gmbr/ramadhan2023.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h2>Peduli<span>Berbagi</span></h2>
+          <p>
+            merupakan sebuah komunitas kecil yang memiliki visi dan misi untuk membantu mereka yang membutuhkan, khususnya pada bulan Ramadhan. Kami percaya bahwa kebaikan dalam berbagi dapat membawa perubahan positif, baik bagi yang
+            memberi maupun yang menerima. Setiap tahun, kami berkomitmen untuk menyalurkan bantuan dalam bentuk makanan berbuka puasa dan takjil kepada mereka yang kurang mampu, sehingga mereka dapat menjalani ibadah puasa dengan lebih
+            baik. Melalui program berbagi ini, kami berharap dapat meringankan beban saudara-saudara kita yang membutuhkan dan mengajak lebih banyak orang untuk bergabung dalam kebaikan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Carousel Section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="gmbr/ramadhan2023(2).jpg" class="d-block w-100" alt="Ramadhan 2023" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ramadhan 2023</h5>
+            <p>Peduli Berbagi hadir untuk memberikan takjil dan makanan berbuka puasa gratis.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="gmbr/ramadhan2023(3).jpg" class="d-block w-100" alt="Second Slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ramadhan 2023</h5>
+            <p>Peduli Berbagi hadir untuk memberikan takjil dan makanan berbuka puasa gratis.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="gmbr/ramadhan2023.jpg" class="d-block w-100" alt="Third Slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ramadhan 2023</h5>
+            <p>Peduli Berbagi hadir untuk memberikan takjil dan makanan berbuka puasa gratis.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel Section end -->
+
+    <!-- Our Journey Section -->
+    <section class="journey" id="journey">
+      <h2><span>Our</span> Journey</h2>
+      <p>Kami telah berjalan bersama sejak tahun 2018, berkomitmen untuk membantu sesama melalui berbagai inisiatif yang menyentuh banyak kehidupan. Inilah beberapa momen tak terlupakan yang kami ciptakan bersama.</p>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="gmbr/card1.jpg" class="card-img-top" alt="Card 1" />
+          <div class="card-body">
+            <h5 class="card-title">Ramadhan 2023</h5>
+            <p class="card-text">Kami memulai kembali menghidupkan komunitas kami yang sudah tidak beroperasi dan menyempatkan diri untuk melakukan kegiatan berbagi dari kesibukan masing-masing.</p>
+            <a href="#" class="btn btn-primary">Lihat</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="gmbr/card2.jpg" class="card-img-top" alt="Card 2" />
+          <div class="card-body">
+            <h5 class="card-title">Ramadhan 2024</h5>
+            <p class="card-text">Tahun kedua setelah kami memulai kembali kegiatan ini dan Alhamdulillah masih diberi kesempatan oleh Tuhan untuk melaksanakan kegiatan ini lagi.</p>
+            <a href="#" class="btn btn-primary">Lihat</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card 3" />
+          <div class="card-body">
+            <h5 class="card-title">Ramadhan 2025</h5>
+            <p class="card-text">Coming Soon.</p>
+            <a href="#" class="btn btn-primary">Lihat</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card 4" />
+          <div class="card-body">
+            <h5 class="card-title">Ramadhan 2026</h5>
+            <p class="card-text">Coming Soon</p>
+            <a href="#" class="btn btn-primary">Lihat</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Journey Section end -->
+
+    <!--  -->
+    <script src="js.js"></script>
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
