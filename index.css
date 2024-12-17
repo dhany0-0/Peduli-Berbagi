@@ -166,7 +166,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(5, 10, 15, 0.9), rgba(6, 11, 16, 0.6)), url("gmbr/background.jpg");
+  background-image: linear-gradient(to right, rgba(5, 10, 15, 0.9), rgba(6, 11, 16, 0.6)), url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
